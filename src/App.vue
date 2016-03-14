@@ -4,6 +4,7 @@
     <hello></hello>
     <goodbye></goodbye>
     <counter></counter>
+    <form-build></form-build>
   </div>
 </template>
 
@@ -11,12 +12,14 @@
 import Hello from './components/Hello'
 import Goodbye from './components/Goodbye'
 import Counter from './components/Counter'
+import FormBuild from './components/Form-Module/FormBuild'
 
 export default {
   components: {
     Hello,
     Goodbye,
-    Counter
+    Counter,
+    FormBuild
   }
 }
 </script>
