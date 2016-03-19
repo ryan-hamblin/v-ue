@@ -1,25 +1,23 @@
 <template>
   <div id="app">
     <img class="logo" src="./assets/logo.png"/>
-    <hello></hello>
-    <goodbye></goodbye>
-    <counter></counter>
+    <list></list>
     <form-build></form-build>
+    <git-fetcher></git-fetcher>
+    
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
-import Goodbye from './components/Goodbye'
-import Counter from './components/Counter'
 import FormBuild from './components/Form-Module/FormBuild'
+import List from './components/List'
+import GitFetcher from './components/GitFetcher'
 
 export default {
   components: {
-    Hello,
-    Goodbye,
-    Counter,
-    FormBuild
+    FormBuild,
+    List,
+    GitFetcher
   }
 }
 </script>
